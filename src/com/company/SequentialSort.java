@@ -4,26 +4,50 @@ package com.company;
     Class holding a simple method for a Sequential Sorting of an int array.
 */
 public class SequentialSort {
+    public static void run(int arr[], int k){
 
-    /*
-        Method for sorting a simple int array of K numbers.
-        @Param  A int[] of some size.
-        @Return  A int[] sorted in descending order.
-    */
-    public int [] sort(int arr[]){
-        int size = arr.length;
+        insertionSort(arr, k);
+         findK(arr, k);
+    }
 
-        for(int i = 0; i < size; i++) {
+    private static void insertionSort(int arr[], int k){
+        int i;
 
-            int currentValue = arr[i];
-            int j = i - 1;
+        //from 0 to k.
+        for(int j = 0; j < k; j++) {
 
-            while(j >= 0  && arr[j] < currentValue){
-                arr[j + 1] = arr[j];
-                j = j - 1;
-            }
-            arr[j + 1] = currentValue;
+        int currentValue = arr[j + 1];
+        i = j;
+
+        while(i >= 0  && arr[i] < currentValue){
+            arr[i + 1] = arr[i];
+            i = i - 1;
         }
-        return arr;
+        arr[i + 1] = currentValue;
+    }
+
+
+    }
+
+    private static void singleInsertionSort(int arr[], int k){
+        for(int i = k - 1; i > 0; i--)
+        {
+            if(arr[i] > arr[i-1]){
+                int temp = arr[i - 1];
+                arr[i - 1] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+
+    private static void findK(int arr[], int k){
+        for(int i = k; i < arr.length; i++){
+            if(arr[i] > arr[k - 1]){
+                int temp = arr[k - 1];
+                arr[k - 1] = arr[i];
+                arr[i] = temp;
+                singleInsertionSort(arr, k);
+            }
+        }
     }
 }

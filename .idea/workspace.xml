@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/parallelSort.java" line="53" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f32fe2-33ef-4e22-a87f-5e0a074400b7" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/com/company/parallelSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SequentialSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SequentialSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/parallelSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/parallelSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +22,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="480">
+              <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="88" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#Main#0" />
-                <element signature="method#createArray#0;class#Main#0" />
                 <element signature="method#testA1#0;class#Main#0" />
-                <element signature="e#906#912#0" expanded="true" />
                 <element signature="method#testA2#0;class#Main#0" />
-                <element signature="e#835#841#0" expanded="true" />
                 <element signature="method#calculateMedian#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/parallelSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#428#429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,10 +37,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/SequentialSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="740">
+              <caret line="37" column="9" selection-start-line="30" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <element signature="method#singleInsertionSort#0;class#SequentialSort#0" />
+                <element signature="method#findK#0;class#SequentialSort#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/parallelSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#run#0;class#parallelSort#0" />
+                <element signature="e#899#1528#1" />
+                <element signature="class#worker#0;class#parallelSort#0" />
+                <element signature="method#worker#0;class#worker#0;class#parallelSort#0" />
               </folding>
             </state>
           </provider>
@@ -94,32 +96,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IN3030_oblig1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IN3030_oblig1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IN3030_oblig1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IN3030_oblig1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IN3030_oblig1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IN3030_oblig1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -129,9 +106,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613084162244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613155321470" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,7 +126,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="IN3030_oblig1" />
-      <option name="PROGRAM_PARAMETERS" value="1000000 20" />
+      <option name="PROGRAM_PARAMETERS" value="1000000000 20" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -175,6 +152,11 @@
       <updated>1612354560079</updated>
       <workItem from="1612354561341" duration="12689000" />
       <workItem from="1612964189507" duration="29480000" />
+      <workItem from="1613128027523" duration="23419000" />
+      <workItem from="1613155412426" duration="103000" />
+      <workItem from="1613155527982" duration="152000" />
+      <workItem from="1613155693852" duration="612000" />
+      <workItem from="1613156325233" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1612354659344</created>
@@ -187,7 +169,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29738000" />
+    <option name="totallyTimeSpent" value="55739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -200,11 +182,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -213,6 +194,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,47 +283,53 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>59</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="88" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testA1#0;class#Main#0" />
+            <element signature="method#testA2#0;class#Main#0" />
+            <element signature="method#calculateMedian#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SequentialSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="740">
+          <caret line="37" column="9" selection-start-line="30" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="method#singleInsertionSort#0;class#SequentialSort#0" />
+            <element signature="method#findK#0;class#SequentialSort#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/parallelSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="380">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#createArray#0;class#Main#0" />
-            <element signature="method#testA1#0;class#Main#0" />
-            <element signature="e#906#912#0" expanded="true" />
-            <element signature="method#testA2#0;class#Main#0" />
-            <element signature="e#835#841#0" expanded="true" />
-            <element signature="method#calculateMedian#0;class#Main#0" />
+            <element signature="method#run#0;class#parallelSort#0" />
+            <element signature="e#899#1528#1" />
+            <element signature="class#worker#0;class#parallelSort#0" />
+            <element signature="method#worker#0;class#worker#0;class#parallelSort#0" />
           </folding>
         </state>
       </provider>

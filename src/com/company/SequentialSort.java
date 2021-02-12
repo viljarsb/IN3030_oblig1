@@ -24,9 +24,7 @@ public class SequentialSort {
             i = i - 1;
         }
         arr[i + 1] = currentValue;
-    }
-
-
+     }
     }
 
     private static void singleInsertionSort(int arr[], int k){
